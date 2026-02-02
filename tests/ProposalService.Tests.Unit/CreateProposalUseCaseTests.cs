@@ -4,6 +4,7 @@ using ProposalService.Application.Ports.Inbound.Proposals;
 using ProposalService.Application.Ports.Outbound.Persistence;
 using ProposalService.Application.Ports.Outbound.Time;
 using ProposalService.Application.UseCases.Proposals;
+using Xunit;
 
 namespace ProposalService.Tests.Unit;
 

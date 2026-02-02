@@ -4,6 +4,7 @@ using UnderwritingService.Application.Ports.Outbound.Inbox;
 using UnderwritingService.Application.Ports.Outbound.Persistence;
 using UnderwritingService.Application.Ports.Outbound.Time;
 using UnderwritingService.Application.UseCases.Events;
+using Xunit;
 
 namespace UnderwritingService.Tests.Unit;
 
