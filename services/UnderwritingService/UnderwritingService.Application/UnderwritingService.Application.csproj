@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnderwritingService.Domain\UnderwritingService.Domain.csproj" />
+    <ProjectReference Include="..\..\..\shared\Insurance.SharedKernel\Insurance.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\..\shared\Insurance.Contracts\Insurance.Contracts.csproj" />
+  </ItemGroup>
+</Project>

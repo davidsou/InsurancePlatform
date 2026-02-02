@@ -1,0 +1,99 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.SharedKernel", "shared\Insurance.SharedKernel\Insurance.SharedKernel.csproj", "{B77A2D89-4DF6-4EFD-9B84-116C9473824D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.Contracts", "shared\Insurance.Contracts\Insurance.Contracts.csproj", "{E6911A79-2DB1-4ED6-B78B-0B90335267C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProposalService.Domain", "services\ProposalService\ProposalService.Domain\ProposalService.Domain.csproj", "{95193587-A5C2-4EEE-91D9-CFD060099537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProposalService.Application", "services\ProposalService\ProposalService.Application\ProposalService.Application.csproj", "{57E39129-442E-4DDA-A19F-3DF7F9893158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProposalService.Infrastructure", "services\ProposalService\ProposalService.Infrastructure\ProposalService.Infrastructure.csproj", "{CAC311E2-741C-4C74-94B2-AF46769D8B35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProposalService.CompositionRoot", "services\ProposalService\ProposalService.CompositionRoot\ProposalService.CompositionRoot.csproj", "{B44F7CD7-2226-456C-B46A-ADD0310EA747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProposalService.Api", "services\ProposalService\ProposalService.Api\ProposalService.Api.csproj", "{280DAC55-F406-4B89-BA83-9B3972B14566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderwritingService.Domain", "services\UnderwritingService\UnderwritingService.Domain\UnderwritingService.Domain.csproj", "{47B78557-EF7A-4493-A253-D7DDBAC53923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderwritingService.Application", "services\UnderwritingService\UnderwritingService.Application\UnderwritingService.Application.csproj", "{A8ECE9C9-888A-48AD-92E2-8223DBD68D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderwritingService.Infrastructure", "services\UnderwritingService\UnderwritingService.Infrastructure\UnderwritingService.Infrastructure.csproj", "{86356E0C-22DC-49E1-96C6-15EEC68CABDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderwritingService.CompositionRoot", "services\UnderwritingService\UnderwritingService.CompositionRoot\UnderwritingService.CompositionRoot.csproj", "{A998884A-2145-4700-B6CC-C5B4AF9295A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderwritingService.Api", "services\UnderwritingService\UnderwritingService.Api\UnderwritingService.Api.csproj", "{26D3EB7C-437A-4864-BFDE-D8D66F628F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProposalService.Tests.Unit", "tests\ProposalService.Tests.Unit\ProposalService.Tests.Unit.csproj", "{848D8601-0D5B-4B93-AE79-AC755EDEB2D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderwritingService.Tests.Unit", "tests\UnderwritingService.Tests.Unit\UnderwritingService.Tests.Unit.csproj", "{BDACAA39-866B-4B55-9BD3-D03F6CEC3B8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B77A2D89-4DF6-4EFD-9B84-116C9473824D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77A2D89-4DF6-4EFD-9B84-116C9473824D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77A2D89-4DF6-4EFD-9B84-116C9473824D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77A2D89-4DF6-4EFD-9B84-116C9473824D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6911A79-2DB1-4ED6-B78B-0B90335267C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6911A79-2DB1-4ED6-B78B-0B90335267C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6911A79-2DB1-4ED6-B78B-0B90335267C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6911A79-2DB1-4ED6-B78B-0B90335267C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95193587-A5C2-4EEE-91D9-CFD060099537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95193587-A5C2-4EEE-91D9-CFD060099537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95193587-A5C2-4EEE-91D9-CFD060099537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95193587-A5C2-4EEE-91D9-CFD060099537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E39129-442E-4DDA-A19F-3DF7F9893158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E39129-442E-4DDA-A19F-3DF7F9893158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E39129-442E-4DDA-A19F-3DF7F9893158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E39129-442E-4DDA-A19F-3DF7F9893158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC311E2-741C-4C74-94B2-AF46769D8B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC311E2-741C-4C74-94B2-AF46769D8B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC311E2-741C-4C74-94B2-AF46769D8B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC311E2-741C-4C74-94B2-AF46769D8B35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44F7CD7-2226-456C-B46A-ADD0310EA747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44F7CD7-2226-456C-B46A-ADD0310EA747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44F7CD7-2226-456C-B46A-ADD0310EA747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44F7CD7-2226-456C-B46A-ADD0310EA747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280DAC55-F406-4B89-BA83-9B3972B14566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280DAC55-F406-4B89-BA83-9B3972B14566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280DAC55-F406-4B89-BA83-9B3972B14566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280DAC55-F406-4B89-BA83-9B3972B14566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B78557-EF7A-4493-A253-D7DDBAC53923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B78557-EF7A-4493-A253-D7DDBAC53923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B78557-EF7A-4493-A253-D7DDBAC53923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B78557-EF7A-4493-A253-D7DDBAC53923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8ECE9C9-888A-48AD-92E2-8223DBD68D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ECE9C9-888A-48AD-92E2-8223DBD68D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ECE9C9-888A-48AD-92E2-8223DBD68D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ECE9C9-888A-48AD-92E2-8223DBD68D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86356E0C-22DC-49E1-96C6-15EEC68CABDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86356E0C-22DC-49E1-96C6-15EEC68CABDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86356E0C-22DC-49E1-96C6-15EEC68CABDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86356E0C-22DC-49E1-96C6-15EEC68CABDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A998884A-2145-4700-B6CC-C5B4AF9295A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A998884A-2145-4700-B6CC-C5B4AF9295A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A998884A-2145-4700-B6CC-C5B4AF9295A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A998884A-2145-4700-B6CC-C5B4AF9295A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D3EB7C-437A-4864-BFDE-D8D66F628F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D3EB7C-437A-4864-BFDE-D8D66F628F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D3EB7C-437A-4864-BFDE-D8D66F628F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D3EB7C-437A-4864-BFDE-D8D66F628F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848D8601-0D5B-4B93-AE79-AC755EDEB2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848D8601-0D5B-4B93-AE79-AC755EDEB2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848D8601-0D5B-4B93-AE79-AC755EDEB2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848D8601-0D5B-4B93-AE79-AC755EDEB2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDACAA39-866B-4B55-9BD3-D03F6CEC3B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDACAA39-866B-4B55-9BD3-D03F6CEC3B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDACAA39-866B-4B55-9BD3-D03F6CEC3B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDACAA39-866B-4B55-9BD3-D03F6CEC3B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,58 @@
+version: "3.9"
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  postgres-proposal:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: proposaldb
+    ports:
+      - "5433:5432"
+    volumes:
+      - proposaldb_data:/var/lib/postgresql/data
+
+  postgres-underwriting:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: underwritingdb
+    ports:
+      - "5434:5432"
+    volumes:
+      - underwritingdb_data:/var/lib/postgresql/data
+
+  proposal-api:
+    build:
+      context: .
+      dockerfile: services/ProposalService/ProposalService.Api/Dockerfile
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+    ports:
+      - "5001:8080"
+    depends_on:
+      - rabbitmq
+      - postgres-proposal
+
+  underwriting-api:
+    build:
+      context: .
+      dockerfile: services/UnderwritingService/UnderwritingService.Api/Dockerfile
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+    ports:
+      - "5002:8080"
+    depends_on:
+      - rabbitmq
+      - postgres-underwriting
+
+volumes:
+  proposaldb_data:
+  underwritingdb_data:
